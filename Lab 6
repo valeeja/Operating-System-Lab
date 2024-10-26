@@ -1,0 +1,90 @@
+Lab 6:
+
+Task 1:
+pico name.c
+gcc name.c -o name
+./name
+Code: 
+#include <stdio.h>
+int main()
+{
+printf("My name is valeeja");
+printf("My sap id is 49100");
+return 0
+}
+
+Task2:
+pico num.c
+gcc num.c -0 num
+./num
+Code:
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num % 2 == 0)
+        printf("%d is even.\n", num);
+    else
+        printf("%d is odd.\n", num);
+    return 0;
+}
+
+Task3:
+pico fact.c
+gcc fact.c -o fact
+./fact
+Code:
+#include <stdio.h>
+
+int main() {
+    int n, f = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    for(int i = 1; i <= n; i++)
+        f *= i;
+    printf("Factorial = %d\n", f);
+    return 0;
+}
+
+Task 4:
+pico v.c
+picp v.c
+gcc fact.c -o v
+gcc v.c -o v
+./v
+Code:
+
+#include <stdio.h>
+int main() {
+for(;;)
+{
+printf("Valeeja");
+}
+return 0;
+}
+
+Task 5
+pico avg.c
+gcc avg.c -o avg
+./avg
+
+Code:
+#include <stdio.h>
+
+int main() {
+    int n, x, sum = 0;
+    printf("Enter number of values: ");
+    scanf("%d", &n);
+    while(n--) {
+        scanf("%d", &x);
+        sum += x;
+    }
+    printf("Average = %.2f\n", (float)sum / (n+1));
+    return 0;
+}
+
+
+
+
+
