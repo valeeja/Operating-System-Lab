@@ -1,0 +1,38 @@
+Lab 7:
+
+Task 1:
+nano lab7.txt
+cat lab7.txt > newlab.txt
+cat newlab.txt
+Explanation:
+Created a file named lab7.txt,
+and entered some data into it.
+Copied the data in lab)7.txt to a new file called newLab07.txt
+ Displayed the data of newLab.txt.
+
+who > newlab7.txt
+cat newlab.txt
+Explanation:
+1. Overrode the data in newLab07.txt by to the data of the user using the OS (the “who” command
+displays the user using the OS).
+2. Displayed the contents of newLab07.txt (which is now the output of the “who” command)
+
+ls | sort -r
+. Listed the files in Home directory in reverse alphabetical order.
+ls | sort -r >> newlab.txt
+cat newlab.txt
+Explanation:
+1. Append the “list of files in Home directory” in reverse alphabetical order into newLab07.txt
+2. As we can see, the data already present in newLab07.txt was not over ridden, but appended
+because the result of the “who” command is still there along with the list of files that we just
+appended.
+
+Task 2:
+nano fruits.txt
+sort fruits.txt | grep ap
+Explanantion;
+1. Created a file named fruits.txt and wrote the names of some fruits into it.
+2. Sorted fruits.txt in alphabetical order and displayed fruits with “ap” substring in them using pipe
+(to run two command together) and “grep” command (to search for fruits with “ap” substring).
+
+
