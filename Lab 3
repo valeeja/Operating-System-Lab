@@ -1,0 +1,34 @@
+LAB 3:
+
+Task1
+
+mkdir chemistry
+chemistry
+cd chemistry
+cd/home
+
+Task 2:
+
+cd/home
+cd student/books/chemistry
+cd
+
+Task 3:
+
+cd physics/classical
+mkdir../../computer/graphics
+cd../../computer/graphics
+cd../..
+
+Task 4:
+
+rmdir physics/quantum
+cd computer
+rmdir ../maths/calculus
+cd..
+maths
+cd maths
+ls
+Output: trignometry
+
+
