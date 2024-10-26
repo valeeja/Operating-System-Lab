@@ -1,0 +1,49 @@
+Lab 5:
+
+Task 1:
+uname-r
+uname-m
+uname-p
+uname-l
+uname-o
+uname-i
+uname-v
+uname-a
+uname-n
+These commands tell about specifications of ubuntu
+ -r version and type
+ -m hardware
+ -o software
+ -p print processor type
+ -i hardware
+ -n user
+ -v version installation details
+ -a software user version installation information
+
+Task2:
+cat> labsort
+End of file
+6 apples
+file to be sorted
+23 years old
+class
+3 bnanas
+sort labsort-r
+sort labsort-b
+sort -f labsort
+sort -n labsort
+
+Task3:
+sort -k sortlabn
+sort -k 1 sortlabn
+sort -n sortlabn
+sort -b sortlabn
+sort -f sortlabn
+sort -r sortlabn
+
+ cd cd stands for change directory it is used to change location of current directory
+ cd .. it is used to move to one directory backward
+ cd / it is used to go back to first parent director i.e home etc
+
+
+
