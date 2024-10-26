@@ -1,0 +1,56 @@
+Lab 4:
+
+Task1:
+
+cd books
+pico
+mv atomic-notes at-notes
+ls
+Output: at-notes chemistry computer physics
+
+Task 2:
+
+cp at-notes physics/nuclear
+ls
+Output: at-notes chemistry computer physics
+cd physics
+ls
+Output: classical nuclear
+cd nuclear
+ls
+Output: at-notes
+
+Task 3 (a):
+ls-l
+total 8
+chmod u-w result.comp
+ls-l
+total 8
+
+Task 3 (b):
+pico
+ls-l
+total 12
+chmod go+x stock
+ls-l
+total 12
+
+Task 3 (c):
+pico
+ls-l
+total 16
+chmod g=r+x myfile.txt
+ls-l
+total 16
+
+Task 4:
+cd lab4
+pico quiz
+pico report
+pico viva
+chmod 644 quiz
+chmod 624 report
+cmod 775 viva
+ls-l
+totak 12
+
